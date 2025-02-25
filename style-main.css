@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    background-color: wheat;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div {
+    display: flex;
+    overflow: hidden;
+    padding: 1vw 1vh;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main > div > a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}

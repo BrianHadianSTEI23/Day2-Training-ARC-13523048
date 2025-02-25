@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: wheat;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: xx-large;
+    padding: 1vw 1vh;
+}
